@@ -17,7 +17,6 @@ li {
 #menus {
 	float: right;
 	margin-right: 75px;
-	width: 
 }
 
 .menu {
@@ -51,7 +50,37 @@ a:visited {
 }
 
 #perso {
-	background-color: white;
 	min-width: 400px;
 	min-height: 180px;
+	background-color: #fff;
+	width: 450px;
+	height: 200px;
+	margin: auto;
+	margin-top: 400px;
+	padding-left: 20px;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+	height: 100%;
+	width: 100%;
+} 
+
+.btn {
+	background-color: white;
+	float: right;
+	border:0px none;
+	padding-right: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+.gras {
+	font-weight: bold;
 }
